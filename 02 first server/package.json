@@ -1,0 +1,16 @@
+{
+  "name": "node-first-server",
+  "version": "1.0.0",
+  "description": "spinning up server and data storage, along with learning npm and 3rd party packages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app2.js",
+    "start-server": "node app2.js"
+  },
+  "author": "knightwayne",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
